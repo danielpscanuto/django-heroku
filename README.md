@@ -107,6 +107,9 @@ Remember to grab the address of the app in this point
 * git commit -m 'Configuring the app'
 * git push heroku master --force (you don't need "--force")
 
+## talve heroku 
+* config:set DISABLE_COLLECTSTATIC=1
+
 ## Creating the data base (if you are using your own data base you don't need it, if was migrated there)
 * heroku run python3 manage.py migrate
 
